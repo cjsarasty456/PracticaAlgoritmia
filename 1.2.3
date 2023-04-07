@@ -1,0 +1,17 @@
+Proceso sin_titulo
+	Definir n , edad Como Entero;
+	Definir pulsaciones Como Real;
+	escribir"escriba su edad";
+	leer edad;
+	escribir "escriba un nuero de acuerdo a tu genero ";
+	escribir" 1=sexo femenino";
+	escribir"2= sexo masculino";
+	leer n;
+	si n==1 Entonces
+		pulsaciones<-(220-edad)/10;
+	SiNo
+		n<-2;
+		pulsaciones<-(210-edad)/10;
+	FinSi
+	escribir"el numero de pulsaciones de acuerdo a tu edad es",pulsaciones;
+FinProceso
